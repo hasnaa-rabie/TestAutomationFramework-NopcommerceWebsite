@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="nopcommerce Regression Suite">
+   <parameter name="browser" value="chrome"></parameter>
+    <test name="TestAutomationFramework" preserve-order="true">
+        <classes>
+
+            <class name="tests.RegistrationTest" />
+            <class name="tests.MyAccountTest" />
+            <class name="tests.LoginTest" />
+            <class name="tests.AutomSuggestSearchTest" />
+            <class name="tests.ChangeCurrencyTest" />
+            <class name="tests.SearchTest" />
+            <class name="tests.ContactUsTest" />
+            <class name="tests.EmailFriendTest" />
+
+
+        </classes>
+    </test> <!-- TestAutomationFramework -->
+</suite> <!-- Default Suite -->
